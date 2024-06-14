@@ -1,0 +1,28 @@
+<theme>
+   <colorScheme name="dark">
+      <variables>
+         <backgroundColor>000000</backgroundColor>
+         <listSelectedColor>000000</listSelectedColor>
+         <listSelectedBackgroundColor>fafafa</listSelectedBackgroundColor>
+         <listUnselectedColor>fafafa</listUnselectedColor>
+         <gridGameName>fafafa</gridGameName>
+         <gridTextColor>000000</gridTextColor>
+         <gridTextBackgroundColor>fafafa</gridTextBackgroundColor>
+         <helpIconColor>7a7a7a</helpIconColor>
+         <helpTextColor>9a9a9a</helpTextColor>
+      </variables>
+   </colorScheme>
+   <colorScheme name="light">
+      <variables>
+         <backgroundColor>e5e5e5</backgroundColor>
+         <listSelectedColor>e5e5e5</listSelectedColor>
+         <listSelectedBackgroundColor>000000</listSelectedBackgroundColor>
+         <listUnselectedColor>000000</listUnselectedColor>
+         <gridGameName>000000</gridGameName>
+         <gridTextColor>e5e5e5</gridTextColor>
+         <gridTextBackgroundColor>000000</gridTextBackgroundColor>
+         <helpIconColor>5a5a5a</helpIconColor>
+         <helpTextColor>3a3a3a</helpTextColor>
+      </variables>
+   </colorScheme>
+</theme>

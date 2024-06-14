@@ -1,0 +1,242 @@
+<!--
+theme name:       Analogue OS Menu
+originally by:    Analogue (https://www.analogue.co/os)
+ported by:        Anthony Caccese
+license:          creative commons CC-BY-NC-SA
+https://github.com/anthonycaccese/analogue-os-menu-es-de
+-->
+<theme>
+
+   <!--
+   ///
+   Variables
+   ///
+   -->
+   <variables>
+      <font>./_inc/fonts/AnalogueOS-Regular.otf</font>
+      <spacerImage>./_inc/images/space.png</spacerImage>
+   </variables>
+   <include>./colors.xml</include>
+
+   <!--
+   ///
+   All Views
+   ///
+   -->
+   <view name="system,gamelist">
+      <image name="background">
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <tile>true</tile>
+         <color>${backgroundColor}</color>
+         <path>${spacerImage}</path>
+         <zIndex>0</zIndex>
+      </image>
+      <textlist name="item-list">
+         <fontPath>${font}</fontPath>
+         <selectorColor>00000000</selectorColor>
+         <selectedBackgroundColor>${listSelectedBackgroundColor}</selectedBackgroundColor>
+         <selectedColor>${listSelectedColor}</selectedColor>
+         <primaryColor>${listUnselectedColor}</primaryColor>
+         <secondaryColor>${listUnselectedColor}</secondaryColor>
+         <letterCaseAutoCollections>capitalize</letterCaseAutoCollections>
+         <letterCaseSystemNameSuffix>lowercase</letterCaseSystemNameSuffix>
+         <selectedBackgroundCornerRadius>0.05</selectedBackgroundCornerRadius>
+         <indicators>ascii</indicators>
+         <collectionIndicators>ascii</collectionIndicators>
+         <zIndex>1</zIndex>
+      </textlist>
+      <helpsystem name="help">
+         <origin>0 0.5</origin>
+         <originDimmed>0.5 0.5</originDimmed>
+         <fontPath>${font}</fontPath>
+         <textColor>${helpTextColor}</textColor>
+         <iconColor>${helpIconColor}</iconColor>
+         <letterCase>capitalize</letterCase>
+         <customButtonIcon button="thumbstick_click">./_inc/images/help-thumbstick-click.svg</customButtonIcon>
+         <customButtonIcon button="dpad_updown">./_inc/images/help-button-dpad-up-down.svg</customButtonIcon>
+         <customButtonIcon button="dpad_leftright">./_inc/images/help-button-dpad-left-right.svg</customButtonIcon>
+         <customButtonIcon button="dpad_all">./_inc/images/help-button-dpad.svg</customButtonIcon>
+         <customButtonIcon button="button_l">./_inc/images/help-button-l.svg</customButtonIcon>
+         <customButtonIcon button="button_lt">./_inc/images/help-button-lt.svg</customButtonIcon>
+         <customButtonIcon button="button_r">./_inc/images/help-button-r.svg</customButtonIcon>
+         <customButtonIcon button="button_rt">./_inc/images/help-button-rt.svg</customButtonIcon>
+         <customButtonIcon button="button_lr">./_inc/images/help-button-lr.svg</customButtonIcon>
+         <customButtonIcon button="button_ltrt">./_inc/images/help-button-ltrt.svg</customButtonIcon>
+         <!-- Start Button -->
+         <customButtonIcon button="button_start_PS123">./_inc/images/help-button-start.svg</customButtonIcon>
+         <customButtonIcon button="button_start_PS4">./_inc/images/help-button-start.svg</customButtonIcon>
+         <customButtonIcon button="button_start_PS5">./_inc/images/help-button-start.svg</customButtonIcon>
+         <customButtonIcon button="button_start_SNES">./_inc/images/help-button-start.svg</customButtonIcon>
+         <customButtonIcon button="button_start_switch">./_inc/images/help-button-start.svg</customButtonIcon>
+         <customButtonIcon button="button_start_XBOX">./_inc/images/help-button-start.svg</customButtonIcon>
+         <customButtonIcon button="button_start_XBOX360">./_inc/images/help-button-start.svg</customButtonIcon>
+         <!-- Back Button -->
+         <customButtonIcon button="button_back_PS123">./_inc/images/help-button-back.svg</customButtonIcon>
+         <customButtonIcon button="button_back_PS4">./_inc/images/help-button-back.svg</customButtonIcon>
+         <customButtonIcon button="button_back_PS5">./_inc/images/help-button-back.svg</customButtonIcon>
+         <customButtonIcon button="button_back_SNES">./_inc/images/help-button-back.svg</customButtonIcon>
+         <customButtonIcon button="button_back_switch">./_inc/images/help-button-back.svg</customButtonIcon>
+         <customButtonIcon button="button_back_XBOX">./_inc/images/help-button-back.svg</customButtonIcon>
+         <customButtonIcon button="button_back_XBOX360">./_inc/images/help-button-back.svg</customButtonIcon>
+         <!-- East Button -->
+         <customButtonIcon button="button_b_XBOX">./_inc/images/help-button-east.svg</customButtonIcon>
+         <customButtonIcon button="button_b_PS">./_inc/images/help-button-east.svg</customButtonIcon>
+         <customButtonIcon button="button_b_switch">./_inc/images/help-button-south.svg</customButtonIcon>
+         <customButtonIcon button="button_b_SNES">./_inc/images/help-button-east.svg</customButtonIcon>
+         <!-- South Button -->
+         <customButtonIcon button="button_a_XBOX">./_inc/images/help-button-south.svg</customButtonIcon>
+         <customButtonIcon button="button_a_PS">./_inc/images/help-button-south.svg</customButtonIcon>
+         <customButtonIcon button="button_a_switch">./_inc/images/help-button-east.svg</customButtonIcon>
+         <customButtonIcon button="button_a_SNES">./_inc/images/help-button-south.svg</customButtonIcon>
+         <!-- North Button -->
+         <customButtonIcon button="button_y_XBOX">./_inc/images/help-button-north.svg</customButtonIcon>
+         <customButtonIcon button="button_y_PS">./_inc/images/help-button-north.svg</customButtonIcon>
+         <customButtonIcon button="button_y_switch">./_inc/images/help-button-west.svg</customButtonIcon>
+         <customButtonIcon button="button_y_SNES">./_inc/images/help-button-north.svg</customButtonIcon>
+         <!-- West Button -->
+         <customButtonIcon button="button_x_XBOX">./_inc/images/help-button-west.svg</customButtonIcon>
+         <customButtonIcon button="button_x_PS">./_inc/images/help-button-west.svg</customButtonIcon>
+         <customButtonIcon button="button_x_switch">./_inc/images/help-button-north.svg</customButtonIcon>
+         <customButtonIcon button="button_x_SNES">./_inc/images/help-button-west.svg</customButtonIcon>
+      </helpsystem>
+   </view>
+   <aspectRatio name="4:3,16:9,16:10,1:1,3:2,19.5:9">
+      <view name="system,gamelist">
+         <textlist name="item-list">
+            <fontSize>${listFontSize}</fontSize>
+            <lineSpacing>${listLineSpacing}</lineSpacing>
+            <selectedBackgroundMargins>${selectedBackgroundMargins}</selectedBackgroundMargins>
+         </textlist>
+         <helpsystem name="help">
+            <pos>0.25 0.95</pos><!-- 25% 456 -->
+            <posDimmed>0.5 0.95</posDimmed><!-- 50% 456 -->
+            <entrySpacing>0.0125</entrySpacing><!-- 8 -->
+            <iconTextSpacing>0.00625</iconTextSpacing><!-- 4 -->
+            <fontSize>${helpsystemFontSize}</fontSize>
+         </helpsystem>
+      </view>
+      <fontSize name="large">
+         <variables>
+            <listFontSize>0.0625</listFontSize><!-- 30 -->
+            <listLineSpacing>1.775</listLineSpacing>
+            <selectedBackgroundMargins>0.0375 0.0375</selectedBackgroundMargins><!-- 24 -->
+            <helpsystemFontSize>0.033333333333333</helpsystemFontSize><!-- 16 -->
+         </variables>
+      </fontSize>
+   </aspectRatio>
+
+   <!--
+   ///
+   Variants
+   ///
+   -->
+   <variant name="gamelist-list">
+      <aspectRatio name="4:3,16:9,16:10,1:1,3:2,19.5:9">
+         <view name="system,gamelist">
+            <textlist name="item-list">
+               <pos>0.25 0.025</pos><!-- 25% 12 -->
+               <size>0.75 0.875</size><!-- 75% 420 -->
+            </textlist>
+         </view>
+      </aspectRatio>
+   </variant>
+   <variant name="gamelist-carousel">
+      <aspectRatio name="4:3,16:9,16:10,1:1,3:2,19.5:9">
+         <view name="system">
+            <textlist name="item-list">
+               <pos>0.25 0.025</pos><!-- 25% 12 -->
+               <size>0.75 0.875</size><!-- 75% 420 -->
+            </textlist>
+         </view>
+         <view name="gamelist">
+            <carousel name="item-carousel">
+               <pos>0.25 0.025</pos><!-- 25% 12 -->
+               <size>0.1640625 0.875</size><!-- 105 420 -->
+               <verticalOffset>-.125</verticalOffset>
+               <imageType>screenshot</imageType>
+               <maxItemCount>4</maxItemCount>
+               <itemSize>0.1640625 0.21875</itemSize><!-- 105 105 -->
+               <itemScale>1</itemScale>
+               <itemTransitions>animate</itemTransitions>
+               <unfocusedItemSaturation>0</unfocusedItemSaturation>
+               <unfocusedItemOpacity>0.5</unfocusedItemOpacity>
+               <fastScrolling>true</fastScrolling>
+               <textColor>${gridTextColor}</textColor>
+               <textBackgroundColor>${gridTextBackgroundColor}</textBackgroundColor>
+               <fontPath>${font}</fontPath>
+               <fontSize>0.033333333333333</fontSize><!-- 16 -->
+               <imageFit>cover</imageFit>
+               <type>vertical</type>
+               <color>00000000</color>
+            </carousel>
+         </view>
+      </aspectRatio>
+   </variant>
+   <variant name="gamelist-grid">
+      <aspectRatio name="4:3,16:9,16:10,1:1,3:2,19.5:9">
+         <view name="system">
+            <textlist name="item-list">
+               <pos>0.25 0.025</pos><!-- 25% 12 -->
+               <size>0.75 0.875</size><!-- 75% 420 -->
+            </textlist>
+         </view>
+         <view name="gamelist">
+            <text name="game-name">
+               <pos>0.25 0.0165</pos><!-- 25% 7.92 -->
+               <fontPath>${font}</fontPath>
+               <fontSize>0.0625</fontSize><!-- 30 -->
+               <lineSpacing>1.775</lineSpacing>
+               <color>${gridGameName}</color>
+               <metadata>name</metadata>
+            </text>
+            <grid name="item-grid">
+               <pos>0.25 0.14</pos><!-- 25% 72 -->
+               <size>0.75 0.75</size><!-- 75% 360 -->
+               <itemScale>1</itemScale>
+               <imageType>screenshot</imageType>
+               <imageFit>cover</imageFit>
+               <unfocusedItemOpacity>0.5</unfocusedItemOpacity>
+               <unfocusedItemSaturation>0</unfocusedItemSaturation>
+               <textColor>${gridTextColor}</textColor>
+               <textBackgroundColor>${gridTextBackgroundColor}</textBackgroundColor>
+               <fontPath>${font}</fontPath>
+               <fontSize>0.033333333333333</fontSize><!-- 16 -->
+               <rowTransitions>animate</rowTransitions>
+               <itemSize>0.171875 0.233333333333333</itemSize><!-- 110 112 -->
+               <itemSpacing>0.015625 0.025</itemSpacing><!-- 10 12 -->
+            </grid>
+         </view>
+      </aspectRatio>
+   </variant>
+
+   <!--
+   ///
+   Sounds
+   ///
+   -->
+   <view name="all">
+      <sound name="systembrowse">
+         <path>./_inc/sounds/systembrowse.wav</path>
+      </sound>
+      <sound name="quicksysselect">
+         <path>./_inc/sounds/quicksysselect.wav</path>
+      </sound>
+      <sound name="select">
+         <path>./_inc/sounds/select.wav</path>
+      </sound>
+      <sound name="back">
+         <path>./_inc/sounds/back.wav</path>
+      </sound>
+      <sound name="scroll">
+         <path>./_inc/sounds/scroll.wav</path>
+      </sound>
+      <sound name="favorite">
+         <path>./_inc/sounds/favorite.wav</path>
+      </sound>
+      <sound name="launch">
+         <path>./_inc/sounds/launch.wav</path>
+      </sound>
+   </view>
+
+</theme>
