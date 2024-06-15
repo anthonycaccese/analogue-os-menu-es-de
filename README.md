@@ -25,8 +25,8 @@ The theme has a simple set of options that can be changed directly from the UI S
 
 - `Theme Variant` - sets the layout used for the gamelist view.
    - `List` - The default variant. A list view that matches the same style as system view.
-   - `Carousel` - An attempt to translate the list view with images that exists in Analogue OS
-   - `Grid` - An attempt to translate the grid view that exists in Analogue OS
+   - `Carousel` - An attempt to translate the list view with images that exists in Analogue OS. See the refernece image [here](https://images.analogue.co/os-library-image.b7bbf0123dfe40e9d30f9dde054b9d06.png?auto=format&w=1000&q=100&s=3122733796f9330200cf8c0857ac88e0).
+   - `Grid` - An attempt to translate the grid view that exists in Analogue OS. See the refernece image [here](https://images.analogue.co/os-library-grid.e720ee19f4aa5a23177e725a28532383.png?auto=format&w=1000&q=100&s=78951d124f8051d55eb18b267552e73c)
 
 ### **Color Schemes:**
 
