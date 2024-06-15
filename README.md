@@ -27,6 +27,10 @@ The theme has a simple set of options that can be changed directly from the UI S
    - `List` - The default variant. A list view that matches the same style as system view.
    - `Carousel` - An attempt to translate the list view with images that exists in Analogue OS. See the reference image [here](https://images.analogue.co/os-library-image.b7bbf0123dfe40e9d30f9dde054b9d06.png?auto=format&w=1000&q=100&s=3122733796f9330200cf8c0857ac88e0).
    - `Grid` - An attempt to translate the grid view that exists in Analogue OS. See the reference image [here](https://images.analogue.co/os-library-grid.e720ee19f4aa5a23177e725a28532383.png?auto=format&w=1000&q=100&s=78951d124f8051d55eb18b267552e73c).
+ 
+| List | Carousel | Grid |
+|----|----|----|
+![List](https://github.com/anthonycaccese/analogue-os-menu-es-de/assets/1454947/ca512e3b-22fd-4b56-b709-4dcd6ae6ce47) | ![Carousel](https://github.com/anthonycaccese/analogue-os-menu-es-de/assets/1454947/e0d561fa-e775-485f-872e-d316602ff004) | ![Grid](https://github.com/anthonycaccese/analogue-os-menu-es-de/assets/1454947/8ef43932-031b-4d0b-9d8f-d24a51eb52be) |
 
 ### **Color Schemes:**
 
