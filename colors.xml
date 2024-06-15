@@ -8,6 +8,8 @@
          <gridGameName>fafafa</gridGameName>
          <gridTextColor>000000</gridTextColor>
          <gridTextBackgroundColor>fafafa</gridTextBackgroundColor>
+         <carouselGameName>fafafa</carouselGameName>
+         <carouselGameSystemName>4a4a4a</carouselGameSystemName>
          <helpIconColor>7a7a7a</helpIconColor>
          <helpTextColor>9a9a9a</helpTextColor>
       </variables>
@@ -21,6 +23,8 @@
          <gridGameName>000000</gridGameName>
          <gridTextColor>e5e5e5</gridTextColor>
          <gridTextBackgroundColor>000000</gridTextBackgroundColor>
+         <carouselGameName>000000</carouselGameName>
+         <carouselGameSystemName>6a6a6a</carouselGameSystemName>
          <helpIconColor>5a5a5a</helpIconColor>
          <helpTextColor>3a3a3a</helpTextColor>
       </variables>

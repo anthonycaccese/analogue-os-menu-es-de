@@ -152,11 +152,10 @@ https://github.com/anthonycaccese/analogue-os-menu-es-de
          <view name="gamelist">
             <carousel name="item-carousel">
                <pos>0.25 0.025</pos><!-- 25% 12 -->
-               <size>0.1640625 0.875</size><!-- 105 420 -->
-               <verticalOffset>-.125</verticalOffset>
+               <size>0.234375 0.875</size><!-- 150 420 -->
                <imageType>screenshot</imageType>
-               <maxItemCount>4</maxItemCount>
-               <itemSize>0.1640625 0.21875</itemSize><!-- 105 105 -->
+               <maxItemCount>3</maxItemCount>
+               <itemSize>0.234375 0.291666666666667</itemSize><!-- 150 140 -->
                <itemScale>1</itemScale>
                <itemTransitions>animate</itemTransitions>
                <unfocusedItemSaturation>0</unfocusedItemSaturation>
@@ -170,6 +169,25 @@ https://github.com/anthonycaccese/analogue-os-menu-es-de
                <type>vertical</type>
                <color>00000000</color>
             </carousel>
+            <text name="game-name">
+               <pos>0.515625 0.3375</pos><!-- 330 162 -->
+               <size>0.4375 0</size><!-- 280 - -->
+               <metadata>name</metadata>
+               <fontPath>${font}</fontPath>
+               <fontSize>0.054166666666667</fontSize><!-- 26 -->
+               <lineSpacing>1</lineSpacing>
+               <systemNameSuffix>false</systemNameSuffix>
+               <color>${carouselGameName}</color>
+            </text>
+            <text name="game-system-name">
+               <pos>0.515625 0.541666666666667</pos><!-- 330 260 -->
+               <metadata>sourceSystemFullname</metadata>
+               <fontPath>${font}</fontPath>
+               <fontSize>0.041666666666667</fontSize><!-- 20 -->
+               <lineSpacing>1</lineSpacing>
+               <color>${carouselGameSystemName}</color>
+               <defaultValue>:space:</defaultValue>
+            </text>
          </view>
       </aspectRatio>
    </variant>
@@ -192,7 +210,7 @@ https://github.com/anthonycaccese/analogue-os-menu-es-de
             </text>
             <grid name="item-grid">
                <pos>0.25 0.14</pos><!-- 25% 72 -->
-               <size>0.75 0.75</size><!-- 75% 360 -->
+               <size>0.75 0.75</size><!-- 75% 480 -->
                <itemScale>1</itemScale>
                <imageType>screenshot</imageType>
                <imageFit>cover</imageFit>
@@ -203,7 +221,7 @@ https://github.com/anthonycaccese/analogue-os-menu-es-de
                <fontPath>${font}</fontPath>
                <fontSize>0.033333333333333</fontSize><!-- 16 -->
                <rowTransitions>animate</rowTransitions>
-               <itemSize>0.171875 0.233333333333333</itemSize><!-- 110 112 -->
+               <itemSize>0.234375 0.233333333333333</itemSize><!-- 150 112 -->
                <itemSpacing>0.015625 0.025</itemSpacing><!-- 10 12 -->
             </grid>
          </view>
