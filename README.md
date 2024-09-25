@@ -58,6 +58,38 @@ The theme has a simple set of options that can be changed directly from the UI S
    - `3:2`
    - `19.5:9`
    - `1:1`
+ 
+## Additional Notes
+
+### **Creating your own color scheme:**
+
+1) In the resources folder you will find a template file called [colors-custom.xml](https://github.com/anthonycaccese/analogue-os-menu-es-de/blob/main/resources/colors-custom.xml)
+
+2) Make a folder named `theme-customizations` and place a copy of the `colors-custom.xml` file inside that folder.  The folder structure should look like this when you are done:
+   ```
+   /ES-DE/themes/minui-menu-es-de/theme-customizations/colors-custom.xml
+   ```
+   *Note: This structure should allow you to continue to get updates for the theme from the theme downloader while also retaining your customizations.*
+
+3) Edit the properites in `colors-custom.xml` to create your custom color scheme:
+   - Here is a definition of each property:
+      - `backgroundColor` - Sets the color to be used for the background on all screens.
+      - `listSelectedColor` - Sets the text color of the selected item on the List Variant.
+      - `listSelectedBackgroundColor` - Sets the highlight color for the selected item on the List Variant.
+      - `listUnselectedColor` - Sets the text color for unselected items on the List Variant.
+      - `gridGameName` - Sets the text color of the game name on the Grid Variant.
+      - `gridTextColor` - Sets the text color of the selected item when it does not have an image to display on the Grid & Carousel Variants.
+      - `gridTextBackgroundColor` - Sets the background color of the selected item when it does not have an image to display on the Grid & Carousel Variants.
+      - `carouselGameName` - Sets the text color of the game name on the Carousel Variant.
+      - `carouselGameSystemName` - Sets the text color the system name on the Carousel Variant.
+      - `helpIconColor` - Sets the icon color for items in the included help system
+      - `helpTextColor` - Sets the text color for items in the included help system
+    
+4) Set the `Theme Color Scheme` in ES-DE's UI Settings menu to `Custom` and you should see your custom color scheme display.  If you see an error check that the paths discussed above are correct and then check that the values you added for each property are correct and well formatted.
+
+If you make a custom color scheme and are comfortable with sharing I would love to check it out 😊
+- Please feel free to create an issue in this repo called `Custom Color Scheme: [Name of your Color Scheme]`
+- Include the values you used for the properties above (xml is preferred), the background image and fonts you added (if any) and a screenshot of what it looks like.
 
 ## **Credits:**
 
