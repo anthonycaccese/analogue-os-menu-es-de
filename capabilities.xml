@@ -32,6 +32,9 @@
    <colorScheme name="light">
       <label>Light</label>
    </colorScheme>
+   <colorScheme name="custom">
+      <label>Custom</label>
+   </colorScheme>
 
    <!--
    ///

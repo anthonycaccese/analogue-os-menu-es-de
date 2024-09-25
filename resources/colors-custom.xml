@@ -1,0 +1,17 @@
+<theme>
+   <colorScheme name="custom">
+      <variables>
+         <backgroundColor>000000</backgroundColor>
+         <listSelectedColor>000000</listSelectedColor>
+         <listSelectedBackgroundColor>fafafa</listSelectedBackgroundColor>
+         <listUnselectedColor>fafafa</listUnselectedColor>
+         <gridGameName>fafafa</gridGameName>
+         <gridTextColor>000000</gridTextColor>
+         <gridTextBackgroundColor>fafafa</gridTextBackgroundColor>
+         <carouselGameName>fafafa</carouselGameName>
+         <carouselGameSystemName>4a4a4a</carouselGameSystemName>
+         <helpIconColor>7a7a7a</helpIconColor>
+         <helpTextColor>9a9a9a</helpTextColor>
+      </variables>
+   </colorScheme>
+</theme>
