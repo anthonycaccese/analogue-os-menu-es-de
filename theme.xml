@@ -126,14 +126,12 @@ https://github.com/anthonycaccese/analogue-os-menu-es-de
             <fontSize>${helpsystemFontSize}</fontSize>
          </helpsystem>
       </view>
-      <fontSize name="large">
-         <variables>
-            <listFontSize>0.0625</listFontSize><!-- 30 -->
-            <listLineSpacing>1.775</listLineSpacing>
-            <selectedBackgroundMargins>0.0375 0.0375</selectedBackgroundMargins><!-- 24 -->
-            <helpsystemFontSize>0.033333333333333</helpsystemFontSize><!-- 16 -->
-         </variables>
-      </fontSize>
+      <variables>
+         <listFontSize>0.0625</listFontSize><!-- 30 -->
+         <listLineSpacing>1.775</listLineSpacing>
+         <selectedBackgroundMargins>0.0375 0.0375</selectedBackgroundMargins><!-- 24 -->
+         <helpsystemFontSize>0.033333333333333</helpsystemFontSize><!-- 16 -->
+      </variables>
    </aspectRatio>
 
    <!--
@@ -211,7 +209,10 @@ https://github.com/anthonycaccese/analogue-os-menu-es-de
          </view>
          <view name="gamelist">
             <text name="game-name">
+               <size>0.75 0.11</size>
                <pos>0.25 0.0165</pos><!-- 25% 7.92 -->
+               <container>true</container>
+               <containerType>horizontal</containerType>
                <fontPath>${font}</fontPath>
                <fontSize>0.0625</fontSize><!-- 30 -->
                <lineSpacing>1.775</lineSpacing>

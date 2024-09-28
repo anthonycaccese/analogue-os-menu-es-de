@@ -16,13 +16,6 @@
 
    <!--
    ///
-   Font Size
-   ///
-   -->
-   <fontSize>large</fontSize>
-
-   <!--
-   ///
    Color Schemes
    ///
    -->
@@ -71,21 +64,11 @@
    <variant name="gamelist-carousel">
       <label>Carousel</label>
       <selectable>true</selectable>
-      <override>
-         <trigger>noMedia</trigger>
-         <mediaType>screenshot,titlescreen</mediaType>
-         <useVariant>gamelist-list</useVariant>
-      </override>
    </variant>
    <!-- Grid -->
    <variant name="gamelist-grid">
       <label>Grid</label>
       <selectable>true</selectable>
-      <override>
-         <trigger>noMedia</trigger>
-         <mediaType>screenshot,titlescreen</mediaType>
-         <useVariant>gamelist-list</useVariant>
-      </override>
    </variant>
 
 </themeCapabilities>
