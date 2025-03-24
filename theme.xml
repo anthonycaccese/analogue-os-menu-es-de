@@ -53,16 +53,36 @@ https://github.com/anthonycaccese/analogue-os-menu-es-de
          <letterCaseSystemNameSuffix>lowercase</letterCaseSystemNameSuffix>
          <selectedBackgroundCornerRadius>0.05</selectedBackgroundCornerRadius>
          <indicators>ascii</indicators>
+         <systemNameSuffix>false</systemNameSuffix>
          <collectionIndicators>ascii</collectionIndicators>
          <zIndex>1</zIndex>
       </textlist>
-      <helpsystem name="help">
+      <clock name="clock">
+         <opacity>0</opacity>
+      </clock>
+      <systemstatus name="system-status">
+         <origin>1 0.5</origin>
+         <textRelativeScale>0.7</textRelativeScale>
+         <fontPath>${font}</fontPath>
+         <color>${statusColor}</color>
+         <customIcon icon="icon_bluetooth">./_inc/images/icon-bluetooth.svg</customIcon>
+         <customIcon icon="icon_wifi">./_inc/images/icon-wifi.svg</customIcon>
+         <customIcon icon="icon_cellular">./_inc/images/icon-cellular.svg</customIcon>
+         <customIcon icon="icon_battery_charging">./_inc/images/icon-battery-charging.svg</customIcon>
+         <customIcon icon="icon_battery_full">./_inc/images/icon-battery-full.svg</customIcon>
+         <customIcon icon="icon_battery_high">./_inc/images/icon-battery-high.svg</customIcon>
+         <customIcon icon="icon_battery_medium">./_inc/images/icon-battery-medium.svg</customIcon>
+         <customIcon icon="icon_battery_low">./_inc/images/icon-battery-low.svg</customIcon>
+      </systemstatus>
+      <helpsystem name="help-view">
+         <scope>view</scope>
          <origin>0 0.5</origin>
-         <originDimmed>0.5 0.5</originDimmed>
          <fontPath>${font}</fontPath>
          <textColor>${helpTextColor}</textColor>
          <iconColor>${helpIconColor}</iconColor>
          <letterCase>capitalize</letterCase>
+         <entryRelativeScale>0.7</entryRelativeScale>
+         <entries>start,back,a,b</entries>
          <customButtonIcon button="thumbstick_click">./_inc/images/help-thumbstick-click.svg</customButtonIcon>
          <customButtonIcon button="dpad_updown">./_inc/images/help-button-dpad-up-down.svg</customButtonIcon>
          <customButtonIcon button="dpad_leftright">./_inc/images/help-button-dpad-left-right.svg</customButtonIcon>
@@ -110,6 +130,18 @@ https://github.com/anthonycaccese/analogue-os-menu-es-de
          <customButtonIcon button="button_x_switch">./_inc/images/help-button-north.svg</customButtonIcon>
          <customButtonIcon button="button_x_SNES">./_inc/images/help-button-west.svg</customButtonIcon>
       </helpsystem>
+      <helpsystem name="help-menu-view">
+         <scope>menu</scope>
+         <origin>0.5 0.5</origin>
+         <pos>0.5 0.95</pos>
+         <iconColor>999999</iconColor>
+         <textColor>999999</textColor>
+         <backgroundColor>181818</backgroundColor>
+         <backgroundHorizontalPadding>0.05 0.05</backgroundHorizontalPadding>
+         <backgroundVerticalPadding>0.05 0.05</backgroundVerticalPadding>
+         <backgroundCornerRadius>0.005</backgroundCornerRadius>
+         <entryRelativeScale>0.8</entryRelativeScale>
+      </helpsystem>
    </view>
    <aspectRatio name="4:3,16:9,16:10,1:1,3:2,19.5:9">
       <view name="system,gamelist">
@@ -118,9 +150,12 @@ https://github.com/anthonycaccese/analogue-os-menu-es-de
             <lineSpacing>${listLineSpacing}</lineSpacing>
             <selectedBackgroundMargins>${selectedBackgroundMargins}</selectedBackgroundMargins>
          </textlist>
-         <helpsystem name="help">
+         <systemstatus name="system-status">
+            <pos>0.9825 0.95</pos>
+            <height>0.04166667</height><!-- 20 -->
+         </systemstatus>
+         <helpsystem name="help-view">
             <pos>0.25 0.95</pos><!-- 25% 456 -->
-            <posDimmed>0.5 0.95</posDimmed><!-- 50% 456 -->
             <entrySpacing>0.0125</entrySpacing><!-- 8 -->
             <iconTextSpacing>0.00625</iconTextSpacing><!-- 4 -->
             <fontSize>${helpsystemFontSize}</fontSize>
@@ -130,7 +165,7 @@ https://github.com/anthonycaccese/analogue-os-menu-es-de
          <listFontSize>0.0625</listFontSize><!-- 30 -->
          <listLineSpacing>1.775</listLineSpacing>
          <selectedBackgroundMargins>0.0375 0.0375</selectedBackgroundMargins><!-- 24 -->
-         <helpsystemFontSize>0.033333333333333</helpsystemFontSize><!-- 16 -->
+         <helpsystemFontSize>0.04166667</helpsystemFontSize><!-- 20 -->
       </variables>
    </aspectRatio>
 
