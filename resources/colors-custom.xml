@@ -12,6 +12,7 @@
          <carouselGameSystemName>4a4a4a</carouselGameSystemName>
          <helpIconColor>7a7a7a</helpIconColor>
          <helpTextColor>9a9a9a</helpTextColor>
+         <statusColor>9a9a9a</statusColor>
       </variables>
    </colorScheme>
 </theme>
