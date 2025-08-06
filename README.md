@@ -94,4 +94,4 @@ If you make a custom color scheme and are comfortable with sharing I would love 
 ## **Credits:**
 
 - The original UI was created & designed by [Analogue](https://www.analogue.co/)
-- The included font is called "Analogue OS" and was created by [AbFarid](https://github.com/AbFarid/analogue-os-font)
+- The included font is called "GamePocket-font" and was created by [mumchristmas](https://github.com/mumchristmas/GamePocket-font)

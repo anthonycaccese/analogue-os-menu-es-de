@@ -13,7 +13,7 @@ https://github.com/anthonycaccese/analogue-os-menu-es-de
    ///
    -->
    <variables>
-      <font>./_inc/fonts/AnalogueOS-Regular.otf</font>
+      <font>./_inc/fonts/GamePocket-Regular.ttf</font>
       <spacerImage>./_inc/images/space.png</spacerImage>
    </variables>
    <colorScheme name="dark,light">
