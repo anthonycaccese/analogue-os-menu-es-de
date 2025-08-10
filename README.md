@@ -1,8 +1,8 @@
 # Analogue OS Menu for ES-DE
 
-This is a tranlation of the Analogue OS menu interface (originally designed & created by [Analogue](https://www.analogue.co/os)) for ES-DE.
+This is a translation of the Analogue OS menu interface (originally designed & created by [Analogue](https://www.analogue.co/os)) for ES-DE.
 
-My work focused on tranlating the layout so that it could be buildable in the theme engine for ES-DE.  Please refer to the `Changes Made` section below for additional details. 
+My work focused on translating the layout so that it could be buildable in the theme engine for ES-DE.  Please refer to the `Changes Made` section below for additional details. 
 
 The original version of the UI can be found as part of the OS available on the Analogue Pocket and other devices made by [Analogue](https://www.analogue.co/)
 
